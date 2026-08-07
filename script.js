@@ -53,3 +53,18 @@ setInterval(() => {
     }, 5000);
 
 }, 700);
+setInterval(() => {
+    let star = document.createElement("div");
+
+    star.className = "star";
+
+    star.style.left = Math.random() * 100 + "vw";
+    star.style.top = Math.random() * 70 + "vh";
+
+    document.body.appendChild(star);
+
+    setTimeout(() => {
+        star.remove();
+    }, 3000);
+
+}, 500);
