@@ -20,6 +20,9 @@ function showMessage() {
     let message = document.getElementById("message");
     message.style.display = "block";
 
+    let music = document.getElementById("bgMusic");
+    music.play();
+
     let typing = document.getElementById("typing");
     typing.innerHTML = "";
     index = 0;
@@ -38,6 +41,7 @@ function typeWriter() {
     }
 }
 
+// Floating hearts
 setInterval(() => {
     let heart = document.createElement("div");
 
@@ -53,6 +57,8 @@ setInterval(() => {
     }, 5000);
 
 }, 700);
+
+// Stars effect
 setInterval(() => {
     let star = document.createElement("div");
 
