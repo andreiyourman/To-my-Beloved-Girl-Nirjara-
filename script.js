@@ -2,17 +2,21 @@ let text = `Dear My Beloved Girl,
 
 Happy Birthday, my love. ❤️
 
-On your special day, I want you to know how grateful I am to have someone like you in my life.
+Today is a special day because it celebrates the day someone as wonderful as you was born.
 
-You are someone special who brings happiness and warmth into my days.
+I want you to know how grateful I am to have you in my life. Your smile, your kindness, and the little moments we share mean so much to me.
 
-I hope this new chapter of your life brings you endless smiles, success, and all the happiness you deserve.
+I hope this new chapter of your life brings you endless happiness, success, and all the beautiful things you deserve.
 
-Thank you for being you. I will always cherish the moments we share.
+Thank you for being someone who makes my days brighter. I will always treasure the memories we create together.
 
-I love you. ❤️
+I love you so much. ❤️
 
-- Andrei`;
+Happy Birthday, Nirjara.
+
+Forever yours,
+
+- Andrei ❤️`;
 
 let index = 0;
 
