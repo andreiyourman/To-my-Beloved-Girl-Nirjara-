@@ -1,5 +1,36 @@
+let text = `Dear My Beloved Girl,
+
+Happy Birthday, my love. ❤️
+
+I hope your day is filled with happiness, smiles, and beautiful moments.
+
+You are someone special to me, and I hope you always remember how much you mean to me.
+
+I love you.
+
+- Andrei ❤️`;
+
+let index = 0;
+
 function showMessage() {
-    document.getElementById("message").style.display = "block";
+    let message = document.getElementById("message");
+    message.style.display = "block";
+
+    let content = document.getElementById("typing");
+    content.innerHTML = "";
+    index = 0;
+
+    typeWriter();
+}
+
+function typeWriter() {
+    let content = document.getElementById("typing");
+
+    if (index < text.length) {
+        content.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 50);
+    }
 }
 
 setInterval(() => {
