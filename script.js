@@ -1,3 +1,10 @@
+function startSurprise() {
+    document.getElementById("opening").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
+
+    let music = document.getElementById("bgMusic");
+    music.play();
+}
 let text = `Dear My Beloved Girl,
 
 Happy Birthday, my love. ❤️
