@@ -9,14 +9,14 @@ function createHeart() {
     heart.innerHTML = "❤️";
 
     heart.style.left = Math.random() * 100 + "vw";
-    heart.style.animationDuration = (Math.random() * 3 + 3) + "s";
-    heart.style.fontSize = (Math.random() * 20 + 15) + "px";
+    heart.style.animationDuration = (Math.random() * 4 + 4) + "s";
+    heart.style.fontSize = (Math.random() * 25 + 15) + "px";
 
     document.body.appendChild(heart);
 
     setTimeout(() => {
         heart.remove();
-    }, 6000);
+    }, 8000);
 }
 
-setInterval(createHeart, 300);
+setInterval(createHeart, 250);
