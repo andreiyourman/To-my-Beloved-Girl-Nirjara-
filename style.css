@@ -97,3 +97,27 @@ button {
         transform: translateY(0);
     }
 }
+#opening {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(to bottom, #ffd194, #ff6f91, #4b2c5e);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+#opening h1 {
+    animation: fadeIn 2s ease;
+}
+
+#mainContent {
+    display: none;
+}
+
+#opening button {
+    margin-top: 20px;
+}
